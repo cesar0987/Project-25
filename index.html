@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Profile</title>
+</head>
+<body>
+        <header class="header">
+            <div class="container">
+               <div class="column-left">
+                 <h1>Profile</h1>
+                    <ul >
+                        <li>Home</li>       
+                        <li>My Profile</li>
+                        <li>Find Connections</li>
+                    </ul>
+               </div>
+                <div class="column-right"> 
+                    <span >Sign Out</span> 
+                 </div>
+            </div>
+        </header>
+      <main class="mainContainer container">
+                <div class="containerColumn1">
+                <div class="userTarjet">
+                    <div class="profileImage">
+                        <img src="./images/adrien-s.jpg" alt="Profile Image">
+                    </div>
+                    <div class="profileInfo">
+                        <h2 class="profileInfoTitle">Adrian S</h2>
+                        <div class="profileInfoSubtitle">
+                            <img src="./icons/map-marker.png" alt="Location">
+                            <h3>Seattle</h3>
+                        </div>
+                        <p>Web Developer|Engineer|Problem Solver</p>
+                        <p>Master of shadows and the internet!</p>
+                      <div class="profileInfoEditProfile">
+                          <img src="./icons/gear.png" alt="Edit profile icon">
+                        <h3><a href="#">edit profile</a></h3>
+                      </div>
+                    </div>
+                </div>
+                <div class="educationInfo">
+                    <div class="encabezadoEducation">
+                    <h2>Education</h2>
+                    </div>
+                    <div class="educationInfoContent">
+                        <span>Coding Dojo-Full Stack Bootcamp</span>
+                    <p>Dec 2019-Mar 2020</p>
+                    <p><b>Triple black belt in Python,MERN,and C#</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="containerColumn2">
+                <div class="connectionsRequest">
+                   <div class="connectionsRequestHeader">
+                    <span class="number-request">2</span>
+                    <h2>Connection Request</h2>
+                    </div>
+                    <div class="connectionBody">
+                    <ul>
+                    <li><img src="./images/arry-s.jpg" alt="Arry Img">Arry S
+                        <img src="./icons/accept-circle.png" alt="accept-circle" class="accept-circle" onclick="removeElement(this)">
+                        <img src="./icons/close-circle.png" alt="close-circle" class="close-circle" onclick="removeElement(this)">
+                    </li>
+                    
+                    <li><img src="./images/phil-s.jpg" alt="Jane Img">Phil S
+                        <img src="./icons/accept-circle.png" alt="accept-circle" class="accept-circle">
+                        <img src="./icons/close-circle.png" alt="close-circle" class="close-circle">
+                    </li>
+                    
+                    </ul>
+                    </div>
+                </div>
+                <div class="yourConnections">
+                    <div class="yourConnectionsHeader">
+                    <span class="number-connections">15</span>
+                    <h2>Your Connections</h2>
+                    </div>
+                    <ul>
+                        <li><img src="./images/todd-s.jpg" alt="Todd Img">Todd S</li>
+                        <li><img src="./images/jane-m.jpg" alt="Jane Img">Jane M</li>
+                        <li><img src="./images/adrien-s.jpg" alt="Adrien Img">Adriane S</li>
+                        <li><img src="./images/alayne-s.jpg" alt="Alayne Img">Alayne S</li>
+                    </ul>
+                    <span class="yourConnectionsFooter"><a href="#">View More</a></span>
+            </div>
+            </div>
+      </main>
+      <script src="./script.js"></script>
+</body>
+</html>
